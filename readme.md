@@ -17,17 +17,25 @@ The mock objects attach Sinon spys to request methods. Currently that list inclu
 npm install --save-dev sinon-express-mock
 ```
 
+Depends on:
+
+- Node v4+ (or `Object.assign` support needed)
+- Sinon
+
 
 ## Usage
 
-```js
+Contents of `src/foo.js`:
 
-// src/foo.js
+```js
 export default (req, res) => {
   res.json({ foo: req.body.bar })
 }
+```
 
-// test/foo-test.js
+Contents of `test/foo-test.js`:
+
+```js
 import route from '../src/foo'
 import { mockReq, mockRes } from 'sinon-express-mock'
 
