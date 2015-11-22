@@ -40,7 +40,7 @@ import route from '../src/foo'
 import { mockReq, mockRes } from 'sinon-express-mock'
 
 describe('my route', () => {
-  it('should foo the bar', async () => {
+  it('should foo the bar', () => {
 
     const body = {
       body: {
