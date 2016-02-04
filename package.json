@@ -12,8 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/danawoodman/express-mock-req-res"
+    "url": "github.com/danawoodman/sinon-express-mock.git"
   },
+  "bugs": {
+    "url": "github.com/danawoodman/sinon-express-mock/issues"
+  },
+  "homepage": "https://github.com/danawoodman/sinon-express-mock#readme",
   "keywords": [
     "express",
     "mock",
