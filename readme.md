@@ -42,17 +42,17 @@ import { mockReq, mockRes } from 'sinon-express-mock'
 describe('my route', () => {
   it('should foo the bar', () => {
 
-    const body = {
+    const request = {
       body: {
         foo: 'bar',
       },
     }
-    const req = mockReq(body)
+    const req = mockReq(request)
     const res = mockRes()
 
     route(req, res)
 
-    expect(res.json).to.be.calledWith({ foo: body.foo.bar })
+    expect(res.json).to.be.calledWith({ foo: request.body.foo.bar })
   })
 })
 ```
