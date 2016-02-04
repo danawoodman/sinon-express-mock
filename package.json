@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/danawoodman/sinon-express-mock.git"
+    "url": "git+https://github.com/danawoodman/sinon-express-mock.git"
   },
   "bugs": {
-    "url": "github.com/danawoodman/sinon-express-mock/issues"
+    "url": "https://github.com/danawoodman/sinon-express-mock/issues"
   },
   "homepage": "https://github.com/danawoodman/sinon-express-mock#readme",
   "keywords": [
@@ -31,7 +31,11 @@
     "sinon",
     "spy"
   ],
-  "author": "Dana Woodman <dana@danawoodman.com> (http://danawoodman.com/)",
+  "author": {
+    "name": "Dana Woodman",
+    "email": "dana@danawoodman.com",
+    "url": "danawoodman.com"
+  },
   "license": "MIT",
   "dependencies": {
     "sinon": "1.17.2"
