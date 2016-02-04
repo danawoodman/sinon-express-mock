@@ -36,6 +36,7 @@ export const mockRes = (options = {}) => {
     location: sinon.spy(),
     redirect: sinon.spy(),
     render: sinon.spy(),
+    send: sinon.spy(),
     sendFile: sinon.spy(),
     sendStatus: sinon.spy(),
     set: sinon.spy(),
