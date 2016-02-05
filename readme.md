@@ -2,14 +2,7 @@
 
 Simple request and response mock objects to pass into Express routes when testing using Sinon.
 
-The mock objects attach Sinon spys to request methods. Currently that list includes:
-
-- `locals`
-- `render()`
-- `json()`
-- `redirect()`
-- `sendStatus()`
-
+The mock objects attach Sinon spys to request methods. See `src/index.js` for a full list of stubbed out methods.
 
 ## Install
 
