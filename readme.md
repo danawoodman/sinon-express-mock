@@ -30,6 +30,7 @@ Contents of `test/foo-test.js`:
 
 ```js
 import route from '../src/foo'
+import { expect } from 'chai'
 import { mockReq, mockRes } from 'sinon-express-mock'
 
 describe('my route', () => {
