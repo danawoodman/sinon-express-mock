@@ -51,6 +51,22 @@ describe('my route', () => {
 })
 ```
 
+## Changelog
+
+### v1.3.1
+
+- Bundle fix from #3
+
+### pre v1.3.1
+
+- Changelog didn't exist! 😱
+
+
+## Credits
+
+Dana Woodman and [contributors](https://github.com/danawoodman/sinon-express-mock/graphs/contributors)
+
+
 ## License
 
 MIT
