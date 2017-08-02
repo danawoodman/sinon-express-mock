@@ -22,7 +22,7 @@ Contents of `src/foo.js`:
 
 ```js
 export default (req, res) => {
-  res.json({ foo: req.body.bar })
+  res.json({ foo: req.body.foo })
 }
 ```
 
@@ -46,7 +46,7 @@ describe('my route', () => {
 
     route(req, res)
 
-    expect(res.json).to.be.calledWith({ foo: request.body.foo.bar })
+    expect(res.json).to.be.calledWith({ foo: request.body.foo })
   })
 })
 ```
