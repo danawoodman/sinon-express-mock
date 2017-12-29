@@ -7,14 +7,13 @@ The mock objects attach Sinon spys to request methods. See `src/index.js` for a 
 ## Install
 
 ```shell
-npm install --save-dev sinon-express-mock
+npm install --save-dev sinon-express-mock sinon
 ```
 
 Depends on:
 
-- Node v4+ (or `Object.assign` support needed)
-- Sinon
-
+* Node v4+ (or `Object.assign` support needed)
+* Sinon
 
 ## Usage
 
@@ -35,7 +34,6 @@ import { mockReq, mockRes } from 'sinon-express-mock'
 
 describe('my route', () => {
   it('should foo the bar', () => {
-
     const request = {
       body: {
         foo: 'bar',
@@ -53,19 +51,21 @@ describe('my route', () => {
 
 ## Changelog
 
+### v2.0.0
+
+* Make sinon a `peerDependency`.
+
 ### v1.3.1
 
-- Bundle fix from #3
+* Bundle fix from #3
 
 ### pre v1.3.1
 
-- Changelog didn't exist! 😱
-
+* Changelog didn't exist! 😱
 
 ## Credits
 
 Dana Woodman and [contributors](https://github.com/danawoodman/sinon-express-mock/graphs/contributors)
-
 
 ## License
 
