@@ -29,8 +29,11 @@ Contents of `test/foo-test.js`:
 
 ```js
 import route from '../src/foo'
-import { expect } from 'chai'
+import chai, { expect } from 'chai'
+import sinonChai from 'sinon-chai'
 import { mockReq, mockRes } from 'sinon-express-mock'
+
+chai.use(sinonChai);
 
 describe('my route', () => {
   it('should foo the bar', () => {
