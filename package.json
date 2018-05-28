@@ -38,7 +38,7 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "sinon": "^4.1.3"
+    "sinon": "*"
   },
   "devDependencies": {
     "babel-cli": "6.2.0",
