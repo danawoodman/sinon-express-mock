@@ -45,5 +45,6 @@ export const mockRes = (options = {}) => {
     status: sinon.stub().returns(ret),
     type: sinon.stub().returns(ret),
     vary: sinon.stub().returns(ret),
+    write: sinon.stub().returns(ret),
   }, options)
 }

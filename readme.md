@@ -54,6 +54,10 @@ describe('my route', () => {
 
 ## Changelog
 
+### v2.0.3
+
+* `res.write()` is now stubbed.
+
 ### v2.0.0
 
 * Make sinon a `peerDependency`.
