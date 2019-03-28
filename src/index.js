@@ -11,6 +11,7 @@ export const mockReq = (options = {}) => {
     body: {},
     flash: sinon.stub().returns(ret),
     get: sinon.stub().returns(ret),
+    header: sinon.stub().returns(ret),
     is: sinon.stub().returns(ret),
     params: {},
     query: {},
