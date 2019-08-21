@@ -1,6 +1,6 @@
 {
   "name": "sinon-express-mock",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Simple request and response mock objects to pass into Express routes when testing using Sinon.",
   "main": "lib/index.js",
   "directories": {
