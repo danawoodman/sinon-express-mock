@@ -24,7 +24,7 @@ export const mockRes = (options = {}) => {
   const ret = {};
   return Object.assign(ret, {
     append: sinon.stub().returns(ret),
-    attachement: sinon.stub().returns(ret),
+    attachment: sinon.stub().returns(ret),
     clearCookie: sinon.stub().returns(ret),
     cookie: sinon.stub().returns(ret),
     download: sinon.stub().returns(ret),
