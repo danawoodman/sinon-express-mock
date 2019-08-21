@@ -35,7 +35,6 @@ export const mockRes = (options = {}) => {
     json: sinon.stub().returns(ret),
     jsonp: sinon.stub().returns(ret),
     links: sinon.stub().returns(ret),
-    locals: {},
     location: sinon.stub().returns(ret),
     redirect: sinon.stub().returns(ret),
     render: sinon.stub().returns(ret),
@@ -48,5 +47,7 @@ export const mockRes = (options = {}) => {
     vary: sinon.stub().returns(ret),
     write: sinon.stub().returns(ret),
     writeHead: sinon.stub().returns(ret),
-  }, options)
+  },
+  options,
+  { locals: new Object(options.locals || {}) })
 }
