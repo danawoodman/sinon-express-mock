@@ -43,6 +43,7 @@ export const mockRes = (options = {}) => {
     sendFile: sinon.stub().returns(ret),
     sendStatus: sinon.stub().returns(ret),
     set: sinon.stub().returns(ret),
+    setHeader: sinon.stub().returns(ret),
     status: sinon.stub().returns(ret),
     type: sinon.stub().returns(ret),
     vary: sinon.stub().returns(ret),
